@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>projet js</title>
+</head>
+<body>
+    <div class="entete">
+        <div class="EnteteColonne" id="colonne">
+            <p>Colonnes</p>
+        </div>
+        <div class="EnteteColonne" id="notes">
+            <p>Notes</p>
+        </div>
+    </div>
+    <div id="main">
+        <div id="container">
+            <!-- <div class="column">
+                <div class="column-name">
+                    <p>COLONNE 1</p>
+                </div>
+                <div class="column-contain">
+                   <div class="task">
+                        <i class="fa-solid fa-angles-left"></i>
+                        <div class="taskInfo">
+                            hello
+                        </div>
+                        <i class="fa-solid fa-angles-right"></i>
+                   </div>
+                </div>
+                <div class="logo">
+                   <img height="120px" src="img.png" alt="">
+                </div>
+            </div> -->
+        </div>
+        <div id="nav" class="nav-bar">
+                <div class="column-name2">
+                    <p> CORBEILLE </p>
+                </div>
+                <div id="column-contain-trash" class="column-contain2">
+                  
+                </div>
+               
+        </div>
+    </div>
+                <div class="menu">
+                    <div id="power">
+                        <i class="fa fa-power-off" style="font-size:50px;color:red"></i>
+                    </div>
+                    <div id="Corbeille">
+                        <i class="fa-solid fa-trash-can fa-2x" style="font-size:50px;color:rgb(5, 5, 5)"></i>
+                    </div>
+                
+                    <div id="menu-recycle">
+                        <i class="fa fa-refresh fa-spin" style="font-size:50px"></i>
+                    </div>
+                    <div id="menu-save">
+                        <i class="fa-solid fa-floppy-disk fa-2x" style="font-size:50px;color:rgb(6, 6, 6)"></i>
+                    </div>
+                </div>
+   
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <div id="header-modal">
+                <p>NOUVELLE TACHE</p>
+                    <i class="fa-solid fa-xmark" id="closeModal"></i>
+            </div>
+            <div id="modal-form">
+                <form id="form">
+                    <p>Remplir les informations de la nouvelle tache</p>
+                    <div class="form-control">
+                        <label for="textarea">Tache</label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="date">Date</label>
+                        <input type="date"  name="date" id="date">
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="heureDebut">Heure Debut</label>
+                        <input type="time" name="heureDebut" id="heureDebut">
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="heureFin">Heure Fin</label>
+                        <input type="time" name="heureFin" id="heureFin">
+                        <small>Error message</small>
+                    </div>
+                  
+                    <button type="submit" id="btnTâche">Ajouter</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
